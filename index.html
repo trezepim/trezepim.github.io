@@ -7,12 +7,32 @@
     <title>Horário 3RED1</title>
     <style>
       .body{
-        background-color: gray;
+        background-color: #636363;
+      }
+      .principal{
+        text-align: center;
+        font-size: 55px;
+      }
+      #sexta{
+        display: flex;
+        justify-content: center;
+      }
+      .table{
+        font-size: 20px;
+      }
+      .firsts-tb{
+        display: flex;
+        justify-content: center;
+      }
+      .second-tb{
+        display: flex;
+        justify-content: center;
       }
     </style>
 </head>
-<body>
-    <h1>Horário 3RED1</h1>
+<body class="body">
+    <h1 class="principal">Horário 3RED1</h1>
+    <div class="firsts-tb">
     <table class="table">
         <thead>
           <tr>
@@ -31,7 +51,7 @@
           </tr>
           <tr>
             <th scope="row">3</th>
-            <td colspan="2">Rosimere</td>
+            <td colspan="2">Izack</td>
           </tr>
           <tr>
             <th scope="row">4</th>
@@ -89,6 +109,8 @@
           </tr>
         </tbody>
       </table>
+    </div>
+    <div class="second-tb">
       <table class="table">
         <thead>
           <tr>
@@ -165,6 +187,8 @@
           </tr>
         </tbody>
       </table>
+    </div>
+      <div id="sexta">
       <table class="table">
         <thead>
           <tr>
@@ -203,5 +227,6 @@
           </tr>
         </tbody>
       </table>
+    </div>
 </body>
 </html>
